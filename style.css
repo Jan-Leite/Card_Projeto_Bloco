@@ -1,0 +1,120 @@
+.conteiner{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 400px;
+    height: 620px;
+    margin-top: 100px;
+    background: rgb(136,212,216);
+    background: linear-gradient(180deg, rgba(136,212,216,1) 0%, rgba(132,132,132,1) 42%, rgba(114,78,33,1) 77%, rgba(248,168,72,1) 91%, rgba(96,136,64,1) 100%, rgba(97,137,64,1) 100%);
+    border-radius: 20px;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+
+.yoshi{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 25px;
+    transition: 0.8s;
+}
+
+.funcionario{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #0A1424;
+    transition: 0.8s;
+    cursor: default;
+
+}
+
+.idade{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #0A1424;
+    transition: 0.8s;
+    cursor: default;
+}
+
+.cargo{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #0A1424;
+    margin-top: 20px;
+    transition: 0.8s;
+    cursor: default;
+
+}
+
+.descriçãocargo{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #0A1424;
+    margin-top: 35px;
+    transition: 0.8s;
+    cursor: default;
+
+}
+
+.admissão{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #0A1424;
+    margin-top: 50px;
+    transition: 0.8s;
+    cursor: default;
+
+}
+
+.yoshi:hover{
+    transition: 0.8s;
+    width: 170px;
+    height: 170px;
+}
+
+.funcionario:hover{
+    color: #43FC05;
+    transition: 0.8s;
+    font-size: 40px
+}
+
+.idade:hover{
+    color: #43FC05;
+    transition: 0.8s;
+    font-size: 25px
+}
+
+.cargo:hover{
+    color: #43FC05;
+    transition: 0.8s;
+    font-size: 25px
+}
+
+.descriçãocargo:hover{
+    transition: 0.8s;
+    color: #43FC05;
+    font-size: 20px
+}
+
+.admissão:hover{
+    transition: 0.8s;
+    color: #43FC05;
+    font-size: 20px
+}
